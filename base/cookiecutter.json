@@ -1,0 +1,6 @@
+{
+    "basepath" : "dev",
+    "app_name" : "pyfile",
+    "loc" : "var in file",
+    "pyversion" : "3105"
+}
