@@ -1,4 +1,4 @@
-python -m venv env{{cookiecutter.pyversion}}
+python -m venv .env{{cookiecutter.pyversion}}
 
 "env{{cookiecutter.pyversion}}/Scripts/python.exe" -m pip install --upgrade pip
 
