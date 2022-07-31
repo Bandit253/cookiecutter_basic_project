@@ -46,6 +46,23 @@ class SimpleFeature():
         else:
             return False
 
+    def trylogging(self):
+        self.log.debug('Start trylogging')
+        start = 0
+        try:
+            start = time.perf_counter()
+            # Insert Fuctionality here
+            for x in range(1000):
+                time.sleep(1)
+                
+        except Exception as e:
+            self.log.exception(e, exc_info=True)
+        end = time.perf_counter()
+        total = end - start
+        outmsg = 'trylogging, completed in {0} Seconds'.format(round(total, 2))
+        self.log.debug(outmsg)
+        return 
+
 
 def main():
     x = SimpleFeature("first feature", 120)
