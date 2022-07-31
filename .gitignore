@@ -2,4 +2,6 @@
 dev/env3105/*
 
 project_name/env3105/*
-
+{{cookiecutter.basepath}}\logs\*
+*.log
+hooks/pre_gen_projectxx.py

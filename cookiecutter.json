@@ -1,6 +1,7 @@
 {
     "basepath" : "project_name",
     "app_name" : "pyfile",
+    "description": "short description",
     "loc" : "var in file",
     "pyversion" : "3105"
 }
